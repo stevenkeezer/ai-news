@@ -54,6 +54,7 @@ const NewsCard = ({
           }
           title={title}
         />
+
         <div className={classes.details}>
           <Typography variant="body2" color="textSecondary" component="h2">
             {new Date(publishedAt).toDateString()}

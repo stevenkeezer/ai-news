@@ -2,27 +2,34 @@ import React from "react";
 import NewsCard from "../NewsCard/NewsCard";
 import { Grid, Grow, Typography } from "@material-ui/core";
 import useStyles from "./styles.js";
+import Categories from "../Categories";
 
 const infoCards = [
-  { color: "#00838f", title: "Latest News", text: "Give me the latest news" },
   {
-    color: "#1565c0",
-    title: "News by Categories",
+    color: "#ffffff",
+    title: "Give me the",
+    info: "Give me the latest news",
+    text: "Give me the latest news",
+  },
+  {
+    color: "#ffffff",
+    title: "Search terms",
     info:
-      "Business, Entertainment, General, Health, Science, Sports, Technology",
-    text: "Give me the latest Technology news",
+      "Entertainment, General, Health, Science, Business, Sports, Technology...",
+    text: "Show me entertainment news",
   },
   {
-    color: "#4527a0",
-    title: "News by Terms",
-    info: "Bitcoin, PlayStation 5, Smartphones, Donald Trump...",
-    text: "What's up with PlayStation 5",
+    color: "#ffffff",
+    title: "What's up with?",
+    info:
+      "Bitcoin, PlayStation 5, Smartphones, Airlines, San Francisco 49ers...",
+    text: "What's up with Elon Musk?",
   },
   {
-    color: "#283593",
-    title: "News by Sources",
+    color: "#ffffff",
+    title: "Search by source",
     info: "CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...",
-    text: "Give me the news from CNN",
+    text: "Give me the news from Wired",
   },
 ];
 
@@ -44,21 +51,24 @@ const NewsCards = ({ articles, activeArticle }) => {
                 className={classes.card}
                 style={{ backgroundColor: infoCard.color }}
               >
-                <Typography variant="h5" component="">
-                  {infoCard.title}
-                </Typography>
+                <div className=" rounded-lg py-3">
+                  <div className="text-xl font-semibold text-gray-900">
+                    {infoCard.title}
+                  </div>
+                </div>
                 {infoCard.info ? (
                   <Typography>
-                    <strong>
-                      {infoCard.title.split(" ")[2]}
-                      <br />
+                    <div className="bg-orange-100 rounded-t-lg rounded-bl-lg px-3 py-3">
                       {infoCard.info}
-                    </strong>
+                    </div>
+                    <br />
                   </Typography>
                 ) : null}
                 <Typography variant="h6">
-                  Try saying: <br />
-                  <i>{infoCard.text}</i>
+                  <div className="text-sm">
+                    Try saying: <br />
+                    <i>{infoCard.text}</i>
+                  </div>
                 </Typography>
               </div>
             </Grid>

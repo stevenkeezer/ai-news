@@ -66,251 +66,316 @@ const App = () => {
       </AppBar> */}
 
       <div>
-        <nav class="bg-gray-800">
-          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16">
-              <div class="flex items-center">
-                <div class="flex-shrink-0">
-                  <img
-                    class="h-8 w-8"
-                    src="https://tailwindui.com/img/logos/workflow-mark-on-dark.svg"
-                    alt="Workflow logo"
-                  />
+        <div class="font-sans bg-white flex flex-col min-h-screen w-full">
+          <div>
+            <div class="bg-gray-200 px-4 py-4">
+              <div class="w-full md:max-w-6xl md:mx-auto md:flex md:items-center md:justify-between">
+                <div>
+                  <a
+                    href="/"
+                    class="inline-block py-2 text-gray-800 text-2xl font-bold"
+                  >
+                    AI.news
+                  </a>
                 </div>
+
+                <div>
+                  <div class="hidden md:block">
+                    <a
+                      href="#"
+                      class="inline-block py-1 md:py-4 text-gray-600 mr-6 font-bold"
+                    >
+                      How it Works
+                    </a>
+                    <a
+                      href="#"
+                      class="inline-block py-1 md:py-4 text-gray-500 hover:text-gray-600 mr-6"
+                    >
+                      Solutions
+                    </a>
+
+                    <a
+                      href="#"
+                      class="inline-block py-1 md:py-4 text-gray-500 hover:text-gray-600 mr-6"
+                    >
+                      Pricing
+                    </a>
+                    <a
+                      href="#"
+                      class="inline-block py-1 md:py-4 text-gray-500 hover:text-gray-600 mr-6"
+                    >
+                      Desktop
+                    </a>
+                  </div>
+                </div>
+
                 <div class="hidden md:block">
-                  <div class="ml-10 flex items-baseline space-x-4">
-                    <a
-                      href="/"
-                      class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
-                    >
-                      Dashboard
-                    </a>
-
-                    <a
-                      href="/"
-                      class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                    >
-                      Team
-                    </a>
-
-                    <a
-                      href="/"
-                      class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                    >
-                      Projects
-                    </a>
-
-                    <a
-                      href="/"
-                      class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                    >
-                      Calendar
-                    </a>
-
-                    <a
-                      href="/"
-                      class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                    >
-                      Reports
-                    </a>
-                  </div>
+                  <a
+                    href="#"
+                    class="inline-block py-1 md:py-4 text-gray-500 hover:text-gray-600 mr-6"
+                  >
+                    Login
+                  </a>
+                  <a
+                    href="#"
+                    class="inline-block py-2 px-4 text-gray-700 bg-white hover:bg-gray-100 rounded-lg"
+                  >
+                    Start a free trial
+                  </a>
                 </div>
               </div>
-              <div class="hidden md:block">
-                <div class="ml-4 flex items-center md:ml-6">
-                  <button
-                    class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700"
-                    aria-label="Notifications"
-                  >
-                    <svg
-                      class="h-6 w-6"
-                      stroke="currentColor"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-                      />
-                    </svg>
-                  </button>
+            </div>
 
-                  <div class="ml-3 relative">
+            <div class="bg-gray-200 md:overflow-hidden ">
+              <div class="px-4  pt-16 flex">
+                <div class="relative w-full mx-auto md:mx-auto md:invisible lg:visible">
+                  <div class="flex  items-center lg:gap-10 justify-center">
                     <div>
-                      <button
-                        class="max-w-xs flex items-center text-sm rounded-full text-white focus:outline-none focus:shadow-solid"
-                        id="user-menu"
-                        aria-label="User menu"
-                        aria-haspopup="true"
+                      <svg
+                        class="w-48 h-48 mr-6"
+                        id="0d3bee8d-6283-4722-b2f5-6188c764ca3b"
+                        data-name="Layer 1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                        width="885"
+                        height="657"
+                        viewBox="0 0 885 657"
                       >
-                        <img
-                          class="h-8 w-8 rounded-full"
-                          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                          alt=""
+                        <defs>
+                          <linearGradient
+                            id="e4e73d90-53f9-4a31-ac8c-cd2f87b1a869"
+                            x1="2330.5"
+                            y1="628"
+                            x2="2330.5"
+                            y2="120"
+                            gradientTransform="matrix(-1, 0, 0, 1, 2630, -120)"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop
+                              offset="0"
+                              stop-color="gray"
+                              stop-opacity="0.25"
+                            />
+                            <stop
+                              offset="0.54"
+                              stop-color="gray"
+                              stop-opacity="0.12"
+                            />
+                            <stop
+                              offset="1"
+                              stop-color="gray"
+                              stop-opacity="0.1"
+                            />
+                          </linearGradient>
+                          <linearGradient
+                            id="656a49b8-0e74-4269-923d-a5cb8c729e5a"
+                            x1="589"
+                            y1="657"
+                            x2="589"
+                            y2="150"
+                            gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
+                            xlinkHref="#e4e73d90-53f9-4a31-ac8c-cd2f87b1a869"
+                          />
+                          <linearGradient
+                            id="4ac03110-48b7-4c46-9a7b-750500b44d13"
+                            x1="483.99"
+                            y1="408.82"
+                            x2="483.99"
+                            y2="324.2"
+                            gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
+                            xlinkHref="#e4e73d90-53f9-4a31-ac8c-cd2f87b1a869"
+                          />
+                          <linearGradient
+                            id="659745b9-c7a7-4aa8-bbf0-7b73c169c514"
+                            x1="589.48"
+                            y1="408.82"
+                            x2="589.48"
+                            y2="324.2"
+                            gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
+                            xlinkHref="#e4e73d90-53f9-4a31-ac8c-cd2f87b1a869"
+                          />
+                          <linearGradient
+                            id="ee701dec-23cf-49d9-a833-d49e1cd62e17"
+                            x1="694.96"
+                            y1="408.82"
+                            x2="694.96"
+                            y2="324.2"
+                            gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
+                            xlinkHref="#e4e73d90-53f9-4a31-ac8c-cd2f87b1a869"
+                          />
+                        </defs>
+                        <title>typing</title>
+                        <polygon
+                          points="0 0 599 0 599 434.06 218.15 434.06 177 508 133.77 434.06 0 434.06 0 0"
+                          fill="url(#e4e73d90-53f9-4a31-ac8c-cd2f87b1a869)"
                         />
-                      </button>
+                        <polygon
+                          points="7.57 8.33 589.48 8.33 589.48 427.95 211.79 427.95 176.81 503.3 137.52 427.95 7.57 427.95 7.57 8.33"
+                          fill="#f5f5f5"
+                        />
+                        <rect
+                          x="237.18"
+                          y="254.1"
+                          width="433.53"
+                          height="18.55"
+                          transform="translate(751.89 406.75) rotate(-180)"
+                          fill="#6c63ff"
+                          opacity="0.3"
+                        />
+                        <rect
+                          x="237.18"
+                          y="294.67"
+                          width="433.53"
+                          height="18.55"
+                          transform="translate(751.89 487.89) rotate(-180)"
+                          fill="#6c63ff"
+                          opacity="0.3"
+                        />
+                        <rect
+                          x="237.18"
+                          y="335.24"
+                          width="433.53"
+                          height="18.55"
+                          transform="translate(751.89 569.03) rotate(-180)"
+                          fill="#6c63ff"
+                          opacity="0.3"
+                        />
+                        <rect
+                          x="237.18"
+                          y="375.81"
+                          width="433.53"
+                          height="18.55"
+                          transform="translate(751.89 650.17) rotate(-180)"
+                          fill="#6c63ff"
+                          opacity="0.3"
+                        />
+                        <polygon
+                          points="885 150 293 150 293 583.21 675 583 711 657 752.79 583.21 885 583.21 885 150"
+                          fill="url(#656a49b8-0e74-4269-923d-a5cb8c729e5a)"
+                        />
+                        <polygon
+                          points="880.43 156.7 298.52 156.7 298.52 576.32 676.21 576.32 711.19 651.67 750.48 576.32 880.43 576.32 880.43 156.7"
+                          fill="#fff"
+                        />
+                        <circle
+                          cx="483.99"
+                          cy="366.51"
+                          r="42.31"
+                          fill="url(#4ac03110-48b7-4c46-9a7b-750500b44d13)"
+                        />
+                        <circle
+                          cx="589.48"
+                          cy="366.51"
+                          r="42.31"
+                          fill="url(#659745b9-c7a7-4aa8-bbf0-7b73c169c514)"
+                        />
+                        <circle
+                          cx="694.96"
+                          cy="366.51"
+                          r="42.31"
+                          fill="url(#ee701dec-23cf-49d9-a833-d49e1cd62e17)"
+                        />
+                        <circle
+                          cx="483.99"
+                          cy="366.51"
+                          r="38.25"
+                          fill="#6c63ff"
+                        />
+                        <circle
+                          cx="589.48"
+                          cy="366.51"
+                          r="38.25"
+                          fill="#6c63ff"
+                          opacity="0.6"
+                        />
+                        <circle
+                          cx="694.96"
+                          cy="366.51"
+                          r="38.25"
+                          fill="#6c63ff"
+                          opacity="0.3"
+                        />
+                      </svg>
                     </div>
+                    <div>
+                      <h1 class="font-bold text-gray-700 text-xl sm:text-2xl md:text-5xl leading-tight mb-6">
+                        Search news with your voice
+                      </h1>
 
-                    {/* <div class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg">
-                      <div
-                        class="py-1 rounded-md bg-white shadow-xs"
-                        role="menu"
-                        aria-orientation="vertical"
-                        aria-labelledby="user-menu"
-                      >
-                        <a
-                          href="/"
-                          class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          role="menuitem"
-                        >
-                          Your Profile
-                        </a>
-
-                        <a
-                          href="/"
-                          class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          role="menuitem"
-                        >
-                          Settings
-                        </a>
-
-                        <a
-                          href="/"
-                          class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          role="menuitem"
-                        >
-                          Sign out
-                        </a>
-                      </div>
+                      <p class="text-gray-600 md:text-xl md:px-18">
+                        Artificial Intelligence, now bringing you the latest
+                        headlines.
+                      </p>
                     </div>
-               */}
                   </div>
+
+                  {/* <div class="hidden md:block h-40 w-40 rounded-full bg-blue-800 absolute right-0 bottom-0 -mb-64 -mr-64"></div> */}
+                  <div class="hidden xl:block h-5 w-5 rounded-full bg-yellow-500 absolute top-0 right-0 mr-24 mt-40"></div>
                 </div>
               </div>
-              <div class="-mr-2 flex md:hidden">
-                <button class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white">
-                  <svg
-                    class="block h-6 w-6"
-                    stroke="currentColor"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h16M4 18h16"
-                    />
-                  </svg>
 
-                  <svg
-                    class="hidden h-6 w-6"
-                    stroke="currentColor"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
-                </button>
-              </div>
+              <svg
+                class="fill-current bg-gray-200 text-white hidden md:block"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1440 320"
+              >
+                <path
+                  fill-opacity="1"
+                  d="M0,64L120,85.3C240,107,480,149,720,149.3C960,149,1200,107,1320,85.3L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+                ></path>
+              </svg>
             </div>
-          </div>
 
-          <div class="hidden md:hidden">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <a
-                href="/"
-                class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
-              >
-                Dashboard
-              </a>
+            <div
+              class="max-w-5xl mx-auto bg-white shadow-lg relative hidden md:block"
+              style={{ marginTop: "-310px", borderRadius: "20px" }}
+            >
+              <div
+                class="h-10 w-20 bg-yellow-500 absolute rounded-t-full top-0 left-0  -mt-4 invisible xl:visible "
+                // style={{ zIndex: "-1" }}
+              ></div>
 
-              <a
-                href="/"
-                class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-              >
-                Team
-              </a>
+              <div
+                class="h-5 w-5 rounded-full bg-blue-500 absolute top-0 left-0 -ml-40 mt-12"
+                // style={{ zIndex: "-1" }}
+              ></div>
 
-              <a
-                href="/"
-                class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-              >
-                Projects
-              </a>
-
-              <a
-                href="/"
-                class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-              >
-                Calendar
-              </a>
-
-              <a
-                href="/"
-                class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-              >
-                Reports
-              </a>
+              {/* <div class="h-auto bg-white rounded-t-lg border-b border-gray-100">
+             
+              </div> */}
             </div>
-            <div class="pt-4 pb-3 border-t border-gray-700">
-              <div class="flex items-center px-5 space-x-3">
-                <div class="flex-shrink-0">
-                  <img
-                    class="h-10 w-10 rounded-full"
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    alt=""
-                  />
-                </div>
-                <div class="space-y-1">
-                  <div class="text-base font-medium leading-none text-white">
-                    Tom Cook
-                  </div>
-                  <div class="text-sm font-medium leading-none text-gray-400">
-                    tom@example.com
-                  </div>
-                </div>
-              </div>
-              <div class="mt-3 px-2 space-y-1">
-                <a
-                  href="/"
-                  class="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                >
-                  Your Profile
-                </a>
 
-                <a
-                  href="/"
-                  class="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                >
-                  Settings
-                </a>
-
-                <a
-                  href="/"
-                  class="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                >
-                  Sign out
-                </a>
-              </div>
+            <div className="max-w-6xl mx-auto  overflow-y   rounded-lg">
+              <NewsCards
+                articles={newsArticles}
+                activeArticle={activeArticle}
+              />
             </div>
-          </div>
-        </nav>
 
-        <header class="bg-white shadow">
-          <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-            <h1 class="text-3xl font-bold leading-tight text-gray-900">
-              Search the news using voice commands
-            </h1>
+            <div class="px-4 md:hidden">
+              <div
+                class="-mt-10 max-w-4xl mx-auto bg-white shadow-lg relative z-20"
+                style={{ borderRadius: "20px" }}
+              ></div>
+            </div>
+
+            <p class="text-center p-4 text-gray-600 mt-10">
+              Created by{" "}
+              <a class="border-b text-blue-500" target="_blank">
+                stevenkeezer
+              </a>
+              . AI News is powered by
+              <a
+                href="https://alan.app/"
+                target="_blank"
+                class="border-b text-blue-500"
+              >
+                {" "}
+                AlanAI
+              </a>
+            </p>
           </div>
-        </header>
+        </div>
         {/* <main>
           <div class=" mx-auto py-6 ">
             <div class=" py-6 ">
@@ -320,8 +385,6 @@ const App = () => {
             </div>
           </div>
         </main> */}
-        <br></br>
-        <NewsCards articles={newsArticles} activeArticle={activeArticle} />
       </div>
     </div>
   );

@@ -5,12 +5,15 @@ export default makeStyles({
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
-    alignItems: "center",
+    // alignItems: "center",
     width: "100%",
     height: "45vh",
     padding: "10%",
     borderRadius: 10,
-    color: "white",
+    border: "1px solid #e2e8f0",
+    boxShadow:
+      "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    // color: "white",
   },
   infoCard: {
     display: "flex",
@@ -18,7 +21,7 @@ export default makeStyles({
     textAlign: "center",
   },
   container: {
-    padding: "0 5%",
+    padding: "1% 1%",
     width: "100%",
     margin: 0,
   },
